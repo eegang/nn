@@ -1,0 +1,141 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин продуктов</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .product {
+            background-color: white;
+            width: 200px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .product img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Магазин продуктов</h1>
+    <p>Свежие продукты каждый день</p>
+</header>
+
+<nav>
+    <a href="#">Главная</a>
+    <a href="#">Продукты</a>
+    <a href="#">О нас</a>
+    <a href="#">Контакты</a>
+</nav>
+
+<main>
+
+    <h2 style="text-align: center;">Наши продукты</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Молоко">
+            <h3>Молоко</h3>
+            <p>Молоко 3.2%, 1 литр</p>
+            <p class="price">99 ₽</p>
+            <button>В корзину</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Хлеб">
+            <h3>Хлеб</h3>
+            <p>Свежий белый хлеб</p>
+            <p class="price">65 ₽</p>
+            <button>В корзину</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Яблоки">
+            <h3>Яблоки</h3>
+            <p>Красные яблоки, 1 кг</p>
+            <p class="price">150 ₽</p>
+            <button>В корзину</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Сыр">
+            <h3>Сыр</h3>
+            <p>Российский сыр, 500 г</p>
+            <p class="price">350 ₽</p>
+            <button>В корзину</button>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 Магазин продуктов</p>
+</footer>
+
+</body>
+</html>
+```
